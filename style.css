@@ -50,7 +50,7 @@
     color: white;
 }
 
-/* hero section */
+/* front page hero section */
 
 .hero {
     position: absolute;
@@ -76,7 +76,7 @@ i {
     margin-top: 120px;
     font-size: 4rem;
 }
-
+/* second page */
 .second-page {
     overflow: hidden;
     height: 100vh;
@@ -84,6 +84,8 @@ i {
     justify-content: space-between;
     align-items: center;
     padding-right: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
 }
 .logo-trans {
     display: flex;
@@ -95,6 +97,8 @@ i {
     height: 450px;
     width: 100px;
     background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 .parent {
@@ -214,6 +218,866 @@ to {
     animation: back-text-animation 0.5s linear 0s forwards normal;
 }
 
+/* 3rd page */
+.third-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transCSS {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankCSS {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 
+}
+.parentCSS {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionCSS {
+    transform: translate(-200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.transCSS { 
+    transform: translate(150px);
+  }
+
+   /*3rd page animation  */
+
+/* on blank */
+.animation-transCSS {
+        animation: transanimeCSS 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2CSS {
+    animation:animetransCSS 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeCSS {
+    from {
+        transform: translate(150px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransCSS {
+    from {
+        transform: translate(70px);
+    }
+    to {
+        transform: translate(10px);
+    }
+    
+}
+.back-animation-transCSS {
+    animation: transanime2CSS 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2CSS {
+    animation:animetrans2CSS 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2CSS {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(150px);
+}
+
+}
+
+@keyframes animetrans2CSS {
+from {
+    transform: translate(10px);
+}
+to {
+    transform: translate(70px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationCSS {
+    from {
+        transform: translate(-200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeCSS {
+    animation: text-animationCSS 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationCSS {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeCSS {
+    animation: back-text-animationCSS 0.5s linear 0s forwards normal;
+}
+
+
+/* fourth page */
+
+.fourth-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transJS {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankJS {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.parentJS {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionJS {
+    transform: translate(200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* adding animation in icons section */
+/* on blank */
+.transJS { 
+  transform: translate(-100px);
+}
+.animation-transJS {
+        animation: transanimeJS 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2JS {
+    animation:animetransJS 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeJS {
+    from {
+        transform: translate(-100px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransJS {
+    from {
+        transform: translate(10px);
+    }
+    to {
+        transform: translate(70px);
+    }
+    
+}
+.back-animation-transJS {
+    animation: transanime2JS 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2JS {
+    animation:animetrans2JS 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2JS {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(-100px);
+}
+
+}
+
+@keyframes animetrans2JS {
+from {
+    transform: translate(70px);
+}
+to {
+    transform: translate(10px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationJS {
+    from {
+        transform: translate(200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeJS {
+    animation: text-animationJS 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationJS {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeJS {
+    animation: back-text-animation 0.5s linear 0s forwards normal;
+}
+
+
+/* fifth page */
+
+.fifth-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transBS {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankBS {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.parentBS {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionBS {
+    transform: translate(-200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.transBS { 
+    transform: translate(150px);
+  }
+
+   /*5th page animation  */
+
+/* on blank */
+.animation-transBS {
+        animation: transanimeBS 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2BS {
+    animation:animetransBS 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeBS {
+    from {
+        transform: translate(150px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransBS {
+    from {
+        transform: translate(70px);
+    }
+    to {
+        transform: translate(10px);
+    }
+    
+}
+.back-animation-transBS {
+    animation: transanime2BS 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2BS {
+    animation:animetrans2BS 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2BS {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(150px);
+}
+
+}
+
+@keyframes animetrans2BS {
+from {
+    transform: translate(10px);
+}
+to {
+    transform: translate(70px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationBS {
+    from {
+        transform: translate(-200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeBS {
+    animation: text-animationBS 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationBS {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeBS {
+    animation: back-text-animationBS 0.5s linear 0s forwards normal;
+}
+
+
+/* sixth page */
+.sixth-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transRJS {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankRJS {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.parentRJS {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionRJS {
+    transform: translate(200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* adding animation in icons section */
+/* on blank */
+.transRJS { 
+  transform: translate(-100px);
+}
+.animation-transRJS {
+        animation: transanimeRJS 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2RJS {
+    animation:animetransRJS 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeRJS {
+    from {
+        transform: translate(-100px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransRJS {
+    from {
+        transform: translate(10px);
+    }
+    to {
+        transform: translate(70px);
+    }
+    
+}
+.back-animation-transRJS {
+    animation: transanime2RJS 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2RJS {
+    animation:animetrans2RJS 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2RJS {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(-100px);
+}
+
+}
+
+@keyframes animetrans2RJS {
+from {
+    transform: translate(70px);
+}
+to {
+    transform: translate(10px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationRJS {
+    from {
+        transform: translate(200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeRJS {
+    animation: text-animationRJS 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationRJS {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeRJS {
+    animation: back-text-animationRJS 0.5s linear 0s forwards normal;
+}
+
+/* seventh page */
+.seventh-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transNJS {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankNJS {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+.parentNJS {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionNJS {
+    transform: translate(-200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.transNJS { 
+    transform: translate(150px);
+  }
+
+   /*seventh page animation  */
+
+/* on blank */
+.animation-transNJS {
+        animation: transanimeNJS 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2NJS {
+    animation:animetransNJS 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeNJS {
+    from {
+        transform: translate(150px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransNJS {
+    from {
+        transform: translate(70px);
+    }
+    to {
+        transform: translate(10px);
+    }
+    
+}
+.back-animation-transNJS {
+    animation: transanime2NJS 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2NJS {
+    animation:animetrans2NJS 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2NJS {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(150px);
+}
+
+}
+
+@keyframes animetrans2NJS {
+from {
+    transform: translate(10px);
+}
+to {
+    transform: translate(70px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationNJS {
+    from {
+        transform: translate(-200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeNJS {
+    animation: text-animationNJS 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationNJS {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeNJS {
+    animation: back-text-animationNJS 0.5s linear 0s forwards normal;
+}
+
+
+/* eighth page */
+
+.eighth-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px; 
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transSQL {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankSQL {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.parentSQL {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionSQL {
+    transform: translate(200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* adding animation in icons section */
+/* on blank */
+.transSQL { 
+  transform: translate(-100px);
+}
+.animation-transSQL {
+        animation: transanimeSQL 0.5s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2SQL {
+    animation:animetransSQL 0.5s linear 0s forwards normal;
+}
+@keyframes transanimeSQL {
+    from {
+        transform: translate(-100px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransSQL {
+    from {
+        transform: translate(10px);
+    }
+    to {
+        transform: translate(70px);
+    }
+    
+}
+.back-animation-transSQL {
+    animation: transanime2SQL 0.5s linear 0s forwards normal;
+}
+.back-animation-trans2SQL {
+    animation:animetrans2SQL 0.5s linear 0s forwards normal;
+}
+@keyframes transanime2SQL {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(-100px);
+}
+
+}
+
+@keyframes animetrans2SQL {
+from {
+    transform: translate(70px);
+}
+to {
+    transform: translate(10px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationSQL {
+    from {
+        transform: translate(200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeSQL {
+    animation: text-animationSQL 0.5s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationSQL {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeSQL {
+    animation: back-text-animationSQL 0.5s linear 0s forwards normal;
+}
 
 
