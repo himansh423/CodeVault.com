@@ -1,0 +1,1254 @@
+/* ultra large laptops */
+@media screen and (min-width: 1600px) and (max-width: 2560px) {
+    .childbur {
+        display:none;
+    }
+    /* nav */
+  .child a {
+    font-size: 2rem;
+    margin-top: 60px;
+  }
+  .site {
+    font-size: 4rem;
+    margin-top: 60px;
+  }
+  /* hero */
+  .hero {
+    height: 70vh;
+  }
+  .par1 {
+    font-size: 4rem;
+  }
+  .par2 {
+    font-size: 14rem;
+  }
+  .par3 {
+    font-size: 6rem;
+  }
+  #tap1 {
+    font-size: 9rem;
+    margin-top: 10rem;
+  }
+  /* on images */
+  img {
+    width: 800px;
+    height: 800px;
+  }
+  /* 2nd page */
+  .logo-trans {
+    width: 1300px;
+  }
+  .blank {
+    height: 850px;
+    width: 200px;
+  }
+  .parent {
+    width: 850px;
+    height: 850px;
+  }
+
+  .description {
+    width: 1000px;
+    height: 800px;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2.6rem;
+  }
+  /* 3rd page */
+  .logo-transCSS {
+    width: 1300px;
+  }
+  .blankCSS {
+    height: 850px;
+    width: 200px;
+  }
+  .parentCSS {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionCSS {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 4th page */
+  .logo-transJS {
+    width: 1300px;
+  }
+  .blankJS {
+    height: 850px;
+    width: 200px;
+  }
+  .parentJS {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionJS {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 5th page */
+  .logo-transBS {
+    width: 1300px;
+  }
+  .blankBS {
+    height: 850px;
+    width: 200px;
+  }
+  .parentBS {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionBS {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 6th page */
+  .logo-transRJS {
+    width: 1300px;
+  }
+  .blankRJS {
+    height: 850px;
+    width: 200px;
+  }
+  .parentRJS {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionRJS {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 7th page */
+  .logo-transNJS {
+    width: 1300px;
+  }
+  .blankNJS {
+    height: 850px;
+    width: 200px;
+  }
+  .parentNJS {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionNJS {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 8th page */
+  .logo-transSQL {
+    width: 1300px;
+  }
+  .blankSQL {
+    height: 850px;
+    width: 200px;
+  }
+  .parentSQL {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionSQL {
+    width: 1000px;
+    height: 800px;
+  }
+  /* 9th page */
+  .logo-transDB {
+    width: 1300px;
+  }
+  .blankDB {
+    height: 850px;
+    width: 200px;
+  }
+  .parentDB {
+    width: 850px;
+    height: 850px;
+  }
+  .descriptionDB {
+    width: 1000px;
+    height: 800px;
+  }
+  /* footer */
+  #par {
+    font-size: 2.6rem;
+  }
+  .foot-box {
+    font-size: 3rem;
+    width: 1600px;
+    margin-top: 40px;
+  }
+  ul li {
+    margin-bottom: 20px;
+  }
+  #par2 {
+    margin-top: 60px;
+  }
+  #all a {
+    font-size: 3rem;
+  }
+}
+
+/* laptop small */
+@media screen and (max-width: 1025px) {
+    .childbur {
+        display:none;
+    }
+  /* on containers */
+  .container1 {
+    padding: 80px 86px 0px 0px;
+  }
+  .container2 {
+    padding: 80px 0px 0px 86px;
+  }
+  /* on images */
+  img {
+    height: 288px;
+    width: 288px;
+  }
+  /* on hero */
+  .par1 {
+    font-size: 1.5rem;
+  }
+  .par2 {
+    font-size: 4rem;
+  }
+  .par3 {
+    font-size: 1.7rem;
+  }
+  #tap1 {
+    margin-top: 80px;
+    font-size: 3rem;
+  }
+  /* 2nd page */
+  .logo-trans {
+    width: 468px;
+    gap: 36px;
+  }
+  .blank {
+    height: 324px;
+    width: 72px;
+  }
+  .parent {
+    height: 324px;
+    width: 324px;
+  }
+
+  .description {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+
+  /* 3rd page */
+  .logo-transCSS {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankCSS {
+    width: 72px;
+    height: 324px;
+  }
+  .parentCSS {
+    width: 324px;
+    height: 324px;
+  }
+  .descriptionCSS {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* on 4th page */
+  .logo-transJS {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankJS {
+    height: 324px;
+    width: 72px;
+  }
+  .parentJS {
+    height: 324px;
+    width: 324px;
+  }
+
+  .descriptionJS {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+
+  /* 5th page */
+  .logo-transBS {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankBS {
+    width: 72px;
+    height: 324px;
+  }
+  .parentBS {
+    width: 324px;
+    height: 324px;
+  }
+  .descriptionBS {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* 6th page */
+  .logo-transRJS {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankRJS {
+    height: 324px;
+    width: 72px;
+  }
+  .parentRJS {
+    height: 324px;
+    width: 324px;
+  }
+
+  .descriptionRJS {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* 7th page */
+  .logo-transNJS {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankNJS {
+    width: 72px;
+    height: 324px;
+  }
+  .parentNJS {
+    width: 324px;
+    height: 324px;
+  }
+  .descriptionNJS {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* 8th page */
+
+  .logo-transSQL {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankSQL {
+    height: 324px;
+    width: 72px;
+  }
+  .parentSQL {
+    height: 324px;
+    width: 324px;
+  }
+
+  .descriptionSQL {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* 9th page */
+  .logo-transDB {
+    width: 468px;
+    gap: 36px;
+  }
+  .blankDB {
+    width: 72px;
+    height: 324px;
+  }
+  .parentDB {
+    width: 324px;
+    height: 324px;
+  }
+  .descriptionDB {
+    width: 360px;
+    height: 288px;
+    font-size: 0.864rem;
+  }
+  /* footer */
+  footer {
+    height: 28.8vh;
+  }
+  .foot-box {
+    width: 576px;
+    margin-top: 1.44rem;
+    font-size: 0.864rem;
+    font-weight: 432;
+  }
+  #par2 {
+    margin-top: 14px;
+  }
+  #par2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+  #par {
+    margin-top: 1.296rem;
+    font-size: 1.152rem;
+    font-weight: 432;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 426px) and (max-width: 769px) {
+    .childbur {
+        display:none;
+    }
+  img {
+    width: 216px;
+    height: 216px;
+  }
+  /* Front-page */
+  .Navbar {
+    height: 5.4vh;
+    padding: 10.8px 75.6px 0px 91.8px;
+  }
+  .child a {
+    margin-right: 16.2px;
+  }
+  .site {
+    font-size: 1.35rem;
+  }
+  .link {
+    font-size: 0.648rem;
+  }
+  /* front page hero section */
+  .hero {
+    top: 162px;
+  }
+  .par1 {
+    font-size: 1.08rem;
+  }
+  .par2 {
+    font-size: 3.78rem;
+  }
+  .par3 {
+    font-size: 1.62rem;
+  }
+  /* containers */
+  .container1 {
+    padding: 43.2px 64.8px 0px 0px;
+  }
+  .container2 {
+    padding: 43.2px 0px 0px 64.8px;
+  }
+  /* second page */
+  .logo-trans {
+    width: 351px;
+    gap: 27px;
+  }
+  .blank {
+    height: 243px;
+    width: 52px;
+  }
+  .parent {
+    width: 243px;
+    height: 243px;
+  }
+  .description {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+
+  /* 3rd page  */
+  .logo-transCSS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankCSS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentCSS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionCSS {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 4th page */
+  .logo-transJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentJS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionJS {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 5th page  */
+  .logo-transBS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankBS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentBS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionBS {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 6th page */
+  .logo-transRJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankRJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentRJS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionRJS {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 7th page */
+  .logo-transNJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankNJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentNJS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionNJS {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 8th page */
+  .logo-transSQL {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankSQL {
+    height: 243px;
+    width: 52px;
+  }
+  .parentSQL {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionSQL {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+  /* 9th page */
+  .logo-transDB {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankDB {
+    height: 243px;
+    width: 52px;
+  }
+  .parentDB {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionDB {
+    transform: translate(150px);
+    width: 270px;
+    height: 216px;
+    font-size: 0.648rem;
+  }
+}
+
+/* large mobile  */
+@media screen and (max-width: 426px) {
+  /* landing page */
+  .Navbar {
+    height: 15vh;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .child {
+    display: none;
+  }
+  .childbur {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+  }
+  .bur {
+    margin: 0%;
+    font-size: 24px;
+    color: white;
+  }
+  .site {
+    font-size: 1.7rem;
+    padding-top: 8px;
+  }
+  .hero {
+    top: 200px;
+  }
+  .par3 {
+    font-size: 1.2rem;
+  }
+  /* common */
+  .container1 {
+    flex-direction: column;
+    padding: 43.2px 64.8px 0px 0px;
+    height: 90vh;
+  }
+  .container2 {
+    flex-direction: column;
+    padding: 20px 0px 0px 64.8px;
+    height: 90vh;
+  }
+  img {
+    height: 216px;
+    width: 216px;
+  }
+  /* 2nd page */
+  .logo-trans {
+    width: 351px;
+    gap: 27px;
+  }
+  .blank {
+    height: 243px;
+    width: 52px;
+  }
+  .parent {
+    width: 243px;
+    height: 243px;
+  }
+
+  .description {
+    width: 300px;
+  }
+  #tap2 {
+    margin-top: 0%;
+  }
+  @keyframes text-animation {
+    from {
+      transform: translate(200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(80px);
+      opacity: 1;
+    }
+  }
+  /* 3rd page */
+  .logo-transCSS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankCSS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentCSS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionCSS {
+    width: 300px;
+  }
+  #tap3 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationCSS {
+    from {
+      transform: translate(-200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
+  /* 4th page */
+  .logo-transJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentJS {
+    width: 243px;
+    height: 243px;
+  }
+
+  .descriptionJS {
+    width: 300px;
+  }
+  #tap4 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationJS {
+    from {
+      transform: translate(200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(80px);
+      opacity: 1;
+    }
+  }
+  /* 5th page */
+  .logo-transBS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankBS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentBS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionBS {
+    width: 300px;
+  }
+  #tap5 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationBS {
+    from {
+      transform: translate(-200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
+  /* 6th page */
+  .logo-transRJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankRJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentRJS {
+    width: 243px;
+    height: 243px;
+  }
+
+  .descriptionRJS {
+    width: 300px;
+  }
+  #tap6 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationRJS {
+    from {
+      transform: translate(200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(80px);
+      opacity: 1;
+    }
+  }
+  /* 7th page */
+  .logo-transNJS {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankNJS {
+    height: 243px;
+    width: 52px;
+  }
+  .parentNJS {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionNJS {
+    width: 300px;
+  }
+  #tap7 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationNJS {
+    from {
+      transform: translate(-200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
+  /* 8th page  */
+  .logo-transSQL {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankSQL {
+    height: 243px;
+    width: 52px;
+  }
+  .parentSQL {
+    width: 243px;
+    height: 243px;
+  }
+
+  .descriptionSQL {
+    width: 300px;
+  }
+  #tap8 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationSQL {
+    from {
+      transform: translate(200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(80px);
+      opacity: 1;
+    }
+  }
+  /* 9th page */
+  .logo-transDB {
+    width: 351px;
+    gap: 27px;
+  }
+  .blankDB {
+    height: 243px;
+    width: 52px;
+  }
+  .parentDB {
+    width: 243px;
+    height: 243px;
+  }
+  .descriptionDB {
+    width: 300px;
+  }
+  #tap9 {
+    margin-top: 0%;
+  }
+  @keyframes text-animationDB {
+    from {
+      transform: translate(-200px);
+      opacity: 0.2;
+    }
+    to {
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
+
+  /* footer */
+  #par {
+    margin-top: 0.54rem;
+    font-size: 0.60rem;
+    font-weight: 300;
+   }
+   .foot-box {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    color: #4f4f4f;
+    font-size: 0.50rem;
+    font-family: sans-serif;
+    font-weight: 180;  
+    }
+
+    .navigationBur {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      right:0px;
+      top: 0px;
+      background-color: rgb(0,0,0);
+      height:100vh;
+      width:100vw;
+      z-index: 3;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-670px);
+    }
+   
+    .crossX {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:30px;
+      right: 50px;
+      height: 40px;
+      width:40px;
+      border: 2px solid white;
+      background-color: black;
+      border-radius: 5px;
+    }
+    .X {
+      color: white;
+      font-size: 24px;
+      margin: 0%;
+    }
+    .linkBur {
+      font-size: 1.7rem;
+      margin: 20px;
+      border-bottom: 2px solid white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      text-decoration: none;
+    }
+    @keyframes navAnime {
+      from {
+        transform: translateY(-642px);
+      }
+      to {
+        transform: translateY(0px);
+      }
+    }
+    .navAnime {
+      animation:navAnime 0.3s linear 0s forwards normal ;
+    }
+    @keyframes navAnimeBack {
+      from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-642px);
+      }
+    }
+    .navAnimeBack {
+      animation:navAnimeBack 0.3s linear 0s forwards normal ;
+    }
+}
+
+
+/* medium mobile */
+@media screen and (max-width:376px){
+  /* landing page */
+.par3 {
+  font-size: 1rem;
+}
+/* common */
+.container1 {
+  flex-direction: column;
+  padding: 38.016px 57.024px 0px 0px;
+  height: 90vh;
+}
+.container2 {
+  flex-direction: column;
+  padding: 17.6px 0px 0px 57.024px;
+  height: 90vh;
+}
+img {
+  height: 190px;
+  width: 190px;
+}
+/* 2nd page */
+.logo-trans {
+  width: 308px;
+  gap: 23.76px;
+}
+.blank {
+  height: 213px;
+  width: 45.76px;
+}
+.parent {
+  width: 213.84px;
+  height: 213.84px;
+}
+
+.description {
+  width: 264px;
+}
+#tap2 {
+  margin-top: 0%;
+}
+@keyframes text-animation {
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(60px);
+    opacity: 1;
+  }
+}
+/* 3rd page */
+.logo-transCSS {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankCSS {
+  height: 213.84px;
+  width: 45.76px;
+}
+.parentCSS {
+  width: 213.84px;
+  height: 213.84px;
+}
+.descriptionCSS {
+  width: 264px;
+}
+#tap3 {
+  margin-top: 0%;
+}
+@keyframes text-animationCSS {
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+/* 4th page */
+.logo-transJS {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankJS {
+  height: 213px;
+  width: 45.76px;
+}
+.parentJS {
+  width: 213.84px;
+  height: 213.84px;
+}
+
+.descriptionJS {
+  width: 264px;
+}
+#tap4 {
+  margin-top: 0%;
+}
+@keyframes text-animationJS {
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(60px);
+    opacity: 1;
+  }
+}
+/* 5th page  */
+.logo-transBS {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankBS {
+  height: 213.84px;
+  width: 45.76px;
+}
+.parentBS {
+  width: 213.84px;
+  height: 213.84px;
+}
+.descriptionBS {
+  width: 264px;
+}
+#tap5 {
+  margin-top: 0%;
+}
+@keyframes text-animationBS {
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+/* 6th page */ 
+.logo-transRJS {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankRJS {
+  height: 213px;
+  width: 45.76px;
+}
+.parentRJS {
+  width: 213.84px;
+  height: 213.84px;
+}
+
+.descriptionRJS {
+  width: 264px;
+}
+#tap6 {
+  margin-top: 0%;
+}
+@keyframes text-animationRJS {
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(60px);
+    opacity: 1;
+  }
+}
+/* 7th page */ 
+.logo-transNJS {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankNJS {
+  height: 213.84px;
+  width: 45.76px;
+}
+.parentNJS {
+  width: 213.84px;
+  height: 213.84px;
+}
+.descriptionNJS {
+  width: 264px;
+}
+#tap7 {
+  margin-top: 0%;
+}
+@keyframes text-animationNJS {
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+/* 8th page */
+.logo-transSQL {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankSQL {
+  height: 213px;
+  width: 45.76px;
+}
+.parentSQL {
+  width: 213.84px;
+  height: 213.84px;
+}
+
+.descriptionSQL {
+  width: 264px;
+}
+#tap8 {
+  margin-top: 0%;
+}
+@keyframes text-animationSQL {
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(60px);
+    opacity: 1;
+  }
+}
+/* 9th page */ 
+.logo-transDB {
+  width: 308px;
+  gap: 23.76px;
+}
+.blankDB {
+  height: 213.84px;
+  width: 45.76px;
+}
+.parentDB {
+  width: 213.84px;
+  height: 213.84px;
+}
+.descriptionDB {
+  width: 264px;
+}
+#tap9 {
+  margin-top: 0%;
+}
+@keyframes text-animationDB {
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+/* footer */
+#par {
+  font-size: 0.5rem;
+ }
+
+  .navigationBur {
+    transform: translateY(-670px);
+  }
+  @keyframes navAnime {
+    from {
+      transform: translateY(-642px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+  .navAnime {
+    animation:navAnime 0.3s linear 0s forwards normal ;
+  }
+  @keyframes navAnimeBack {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-680px);
+    }
+  }
+  .navAnimeBack {
+    animation:navAnimeBack 0.3s linear 0s forwards normal ;
+  }
+}

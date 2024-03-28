@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+body, html {
+    overflow-x: hidden;
+}
+
 
 /* Front-page */
 .video-container {
@@ -38,16 +42,23 @@
 .child a {
     margin-right: 30px;
 }
+.childbur {
+    display: none;
+}
+.crossX {
+    display: none;
+}
 .site {
     text-decoration: none;
     font-size: 2.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
-}
+} 
 .link {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    text-decoration: none;
 }
 
 /* front page hero section */
@@ -76,14 +87,31 @@ i {
     margin-top: 120px;
     font-size: 4rem;
 }
+
+.container1 {
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+    display:flex; 
+    justify-content: space-between;
+    padding: 80px 120px 0px 0px; 
+}
+.container2 {
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+    display:flex; 
+    justify-content: space-between;
+    padding: 80px 0px 0px 120px;
+}
 /* second page */
 .second-page {
     overflow: hidden;
     height: 100vh;
     display:flex; 
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -96,7 +124,7 @@ i {
 .blank {
     height: 450px;
     width: 100px;
-    background-color: blue;
+    background-color:#023047;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
@@ -104,7 +132,7 @@ i {
 .parent {
     width: 450px;
     height: 450px;
-    background-color: blue;
+    background-color: #023047;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,11 +166,11 @@ h2 {
   transform: translate(-100px);
 }
 .animation-trans {
-        animation: transanime 0.5s linear 0s forwards normal;
+        animation: transanime 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2 {
-    animation:animetrans 0.5s linear 0s forwards normal;
+    animation:animetrans 0.3s linear 0s forwards normal;
 }
 @keyframes transanime {
     from {
@@ -164,10 +192,10 @@ h2 {
     
 }
 .back-animation-trans {
-    animation: transanime2 0.5s linear 0s forwards normal;
+    animation: transanime2 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2 {
-    animation:animetrans2 0.5s linear 0s forwards normal;
+    animation:animetrans2 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2 {
 from {
@@ -200,7 +228,7 @@ to {
 }
 
 .textanime {
-    animation: text-animation 0.5s linear 0s forwards normal;
+    animation: text-animation 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animation {
@@ -215,17 +243,17 @@ to {
 }
 
 .back-textanime {
-    animation: back-text-animation 0.5s linear 0s forwards normal;
+    animation: back-text-animation 0.3s linear 0s forwards normal;
 }
 
 /* 3rd page */
 .third-page {
     overflow: hidden;
     height: 100vh;
-    display:flex; 
+    display:flex;
+    flex-direction: column; 
     justify-content: space-between;
     align-items: center;
-    padding-left: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -238,7 +266,7 @@ to {
 .blankCSS {
     height: 450px;
     width: 100px;
-    background-color: blue;
+    background-color: #7209b7;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
@@ -246,7 +274,7 @@ to {
 .parentCSS {
     width: 450px;
     height: 450px;
-    background-color: blue;
+    background-color:#7209b7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,11 +309,11 @@ h2 {
 
 /* on blank */
 .animation-transCSS {
-        animation: transanimeCSS 0.5s linear 0s forwards normal;
+        animation: transanimeCSS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2CSS {
-    animation:animetransCSS 0.5s linear 0s forwards normal;
+    animation:animetransCSS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeCSS {
     from {
@@ -307,10 +335,10 @@ h2 {
     
 }
 .back-animation-transCSS {
-    animation: transanime2CSS 0.5s linear 0s forwards normal;
+    animation: transanime2CSS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2CSS {
-    animation:animetrans2CSS 0.5s linear 0s forwards normal;
+    animation:animetrans2CSS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2CSS {
 from {
@@ -343,7 +371,7 @@ to {
 }
 
 .textanimeCSS {
-    animation: text-animationCSS 0.5s linear 0s forwards normal;
+    animation: text-animationCSS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationCSS {
@@ -358,7 +386,7 @@ to {
 }
 
 .back-textanimeCSS {
-    animation: back-text-animationCSS 0.5s linear 0s forwards normal;
+    animation: back-text-animationCSS 0.3s linear 0s forwards normal;
 }
 
 
@@ -368,9 +396,9 @@ to {
     overflow: hidden;
     height: 100vh;
     display:flex; 
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -383,7 +411,7 @@ to {
 .blankJS {
     height: 450px;
     width: 100px;
-    background-color: blue;
+    background-color:#f28482 ;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 
@@ -391,7 +419,7 @@ to {
 .parentJS {
     width: 450px;
     height: 450px;
-    background-color: blue;
+    background-color:#f28482;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -425,11 +453,11 @@ h2 {
   transform: translate(-100px);
 }
 .animation-transJS {
-        animation: transanimeJS 0.5s linear 0s forwards normal;
+        animation: transanimeJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2JS {
-    animation:animetransJS 0.5s linear 0s forwards normal;
+    animation:animetransJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeJS {
     from {
@@ -451,10 +479,10 @@ h2 {
     
 }
 .back-animation-transJS {
-    animation: transanime2JS 0.5s linear 0s forwards normal;
+    animation: transanime2JS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2JS {
-    animation:animetrans2JS 0.5s linear 0s forwards normal;
+    animation:animetrans2JS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2JS {
 from {
@@ -487,7 +515,7 @@ to {
 }
 
 .textanimeJS {
-    animation: text-animationJS 0.5s linear 0s forwards normal;
+    animation: text-animationJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationJS {
@@ -502,7 +530,7 @@ to {
 }
 
 .back-textanimeJS {
-    animation: back-text-animation 0.5s linear 0s forwards normal;
+    animation: back-text-animation 0.3s linear 0s forwards normal;
 }
 
 
@@ -511,10 +539,10 @@ to {
 .fifth-page {
     overflow: hidden;
     height: 100vh;
-    display:flex; 
+    display:flex;
+    flex-direction: column; 
     justify-content: space-between;
     align-items: center;
-    padding-left: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -527,7 +555,7 @@ to {
 .blankBS {
     height: 450px;
     width: 100px;
-    background-color: blue;
+    background-color: #f72585;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
@@ -535,7 +563,7 @@ to {
 .parentBS {
     width: 450px;
     height: 450px;
-    background-color: blue;
+    background-color: #f72585;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -570,11 +598,11 @@ h2 {
 
 /* on blank */
 .animation-transBS {
-        animation: transanimeBS 0.5s linear 0s forwards normal;
+        animation: transanimeBS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2BS {
-    animation:animetransBS 0.5s linear 0s forwards normal;
+    animation:animetransBS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeBS {
     from {
@@ -596,10 +624,10 @@ h2 {
     
 }
 .back-animation-transBS {
-    animation: transanime2BS 0.5s linear 0s forwards normal;
+    animation: transanime2BS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2BS {
-    animation:animetrans2BS 0.5s linear 0s forwards normal;
+    animation:animetrans2BS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2BS {
 from {
@@ -632,7 +660,7 @@ to {
 }
 
 .textanimeBS {
-    animation: text-animationBS 0.5s linear 0s forwards normal;
+    animation: text-animationBS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationBS {
@@ -647,7 +675,7 @@ to {
 }
 
 .back-textanimeBS {
-    animation: back-text-animationBS 0.5s linear 0s forwards normal;
+    animation: back-text-animationBS 0.3s linear 0s forwards normal;
 }
 
 
@@ -656,9 +684,9 @@ to {
     overflow: hidden;
     height: 100vh;
     display:flex; 
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -713,11 +741,11 @@ h2 {
   transform: translate(-100px);
 }
 .animation-transRJS {
-        animation: transanimeRJS 0.5s linear 0s forwards normal;
+        animation: transanimeRJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2RJS {
-    animation:animetransRJS 0.5s linear 0s forwards normal;
+    animation:animetransRJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeRJS {
     from {
@@ -739,10 +767,10 @@ h2 {
     
 }
 .back-animation-transRJS {
-    animation: transanime2RJS 0.5s linear 0s forwards normal;
+    animation: transanime2RJS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2RJS {
-    animation:animetrans2RJS 0.5s linear 0s forwards normal;
+    animation:animetrans2RJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2RJS {
 from {
@@ -775,7 +803,7 @@ to {
 }
 
 .textanimeRJS {
-    animation: text-animationRJS 0.5s linear 0s forwards normal;
+    animation: text-animationRJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationRJS {
@@ -790,17 +818,17 @@ to {
 }
 
 .back-textanimeRJS {
-    animation: back-text-animationRJS 0.5s linear 0s forwards normal;
+    animation: back-text-animationRJS 0.3s linear 0s forwards normal;
 }
 
 /* seventh page */
 .seventh-page {
     overflow: hidden;
     height: 100vh;
-    display:flex; 
+    display:flex;
+    flex-direction: column; 
     justify-content: space-between;
     align-items: center;
-    padding-left: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -813,7 +841,7 @@ to {
 .blankNJS {
     height: 450px;
     width: 100px;
-    background-color: blue;
+    background-color: rgb(1, 191, 45);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 
@@ -821,7 +849,7 @@ to {
 .parentNJS {
     width: 450px;
     height: 450px;
-    background-color: blue;
+    background-color: rgb(1, 191, 45);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -856,11 +884,11 @@ h2 {
 
 /* on blank */
 .animation-transNJS {
-        animation: transanimeNJS 0.5s linear 0s forwards normal;
+        animation: transanimeNJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2NJS {
-    animation:animetransNJS 0.5s linear 0s forwards normal;
+    animation:animetransNJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeNJS {
     from {
@@ -882,10 +910,10 @@ h2 {
     
 }
 .back-animation-transNJS {
-    animation: transanime2NJS 0.5s linear 0s forwards normal;
+    animation: transanime2NJS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2NJS {
-    animation:animetrans2NJS 0.5s linear 0s forwards normal;
+    animation:animetrans2NJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2NJS {
 from {
@@ -918,7 +946,7 @@ to {
 }
 
 .textanimeNJS {
-    animation: text-animationNJS 0.5s linear 0s forwards normal;
+    animation: text-animationNJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationNJS {
@@ -933,7 +961,7 @@ to {
 }
 
 .back-textanimeNJS {
-    animation: back-text-animationNJS 0.5s linear 0s forwards normal;
+    animation: back-text-animationNJS 0.3s linear 0s forwards normal;
 }
 
 
@@ -943,9 +971,9 @@ to {
     overflow: hidden;
     height: 100vh;
     display:flex; 
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-right: 120px; 
     background-image: url("background.png");
     background-size: cover;
 }
@@ -1000,11 +1028,11 @@ h2 {
   transform: translate(-100px);
 }
 .animation-transSQL {
-        animation: transanimeSQL 0.5s linear 0s forwards normal;
+        animation: transanimeSQL 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2SQL {
-    animation:animetransSQL 0.5s linear 0s forwards normal;
+    animation:animetransSQL 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeSQL {
     from {
@@ -1026,10 +1054,10 @@ h2 {
     
 }
 .back-animation-transSQL {
-    animation: transanime2SQL 0.5s linear 0s forwards normal;
+    animation: transanime2SQL 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2SQL {
-    animation:animetrans2SQL 0.5s linear 0s forwards normal;
+    animation:animetrans2SQL 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2SQL {
 from {
@@ -1062,7 +1090,7 @@ to {
 }
 
 .textanimeSQL {
-    animation: text-animationSQL 0.5s linear 0s forwards normal;
+    animation: text-animationSQL 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationSQL {
@@ -1077,7 +1105,190 @@ to {
 }
 
 .back-textanimeSQL {
-    animation: back-text-animationSQL 0.5s linear 0s forwards normal;
+    animation: back-text-animationSQL 0.3s linear 0s forwards normal;
 }
 
+/* 9th page */
+.nineth-page {
+    overflow: hidden;
+    height: 100vh;
+    display:flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("background.png");
+    background-size: cover;
+}
+.logo-transDB {
+    display: flex;
+    width:650px;
+    gap:50px;
+  
+}
+.blankDB {
+    height: 450px;
+    width: 100px;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 
+}
+.parentDB {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+.descriptionDB {
+    transform: translate(-200px);
+    width: 500px;
+    height: 400px;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #023047;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.transDB { 
+    transform: translate(150px);
+  }
+
+   /*9th page animation  */
+
+/* on blank */
+.animation-transDB {
+        animation: transanimeDB 0.3s linear 0s forwards normal;
+}
+/* on parent */
+.animation-trans2DB {
+    animation:animetransDB 0.3s linear 0s forwards normal;
+}
+@keyframes transanimeDB {
+    from {
+        transform: translate(150px);
+    }
+    to {
+        transform: translate(30px);
+    }
+    
+}
+
+@keyframes animetransDB {
+    from {
+        transform: translate(70px);
+    }
+    to {
+        transform: translate(10px);
+    }
+    
+}
+.back-animation-transDB {
+    animation: transanime2DB 0.3s linear 0s forwards normal;
+}
+.back-animation-trans2DB {
+    animation:animetrans2DB 0.3s linear 0s forwards normal;
+}
+@keyframes transanime2DB {
+from {
+    transform: translate(30px);
+}
+to {
+    transform: translate(150px);
+}
+
+}
+
+@keyframes animetrans2DB {
+from {
+    transform: translate(10px);
+}
+to {
+    transform: translate(70px);
+}
+}
+/* adding animation in text */
+@keyframes text-animationDB {
+    from {
+        transform: translate(-200px);
+        opacity:0.2 ;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+.textanimeDB {
+    animation: text-animationDB 0.3s linear 0s forwards normal;
+}
+
+@keyframes back-text-animationDB {
+    from {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-200px);
+        opacity: 0.2;
+    }
+}
+
+.back-textanimeDB {
+    animation: back-text-animationDB 0.3s linear 0s forwards normal;
+}
+
+/* footer */
+footer {
+    height:40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 230, 233);
+}
+#par {
+    margin-top: 1.8rem;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.foot-box {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin-top: 2rem;
+    color: #4f4f4f;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 600;  
+}
+ul li {
+    margin-bottom:10px ;
+
+}
+li a {
+    text-decoration: none;
+}
+#par2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+#tap2 {
+    display: block;
+}
+.navigationBur {
+    display: none;
+}
