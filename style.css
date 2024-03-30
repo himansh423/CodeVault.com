@@ -1,1294 +1,1250 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body, html {
-    overflow-x: hidden;
+body,
+html {
+  overflow-x: hidden;
 }
-
 
 /* Front-page */
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
 }
 
 .Navbar {
-    position: absolute;
-    width:100vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between; 
-    padding:20px 140px 0px 170px;
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 140px 0px 170px;
 }
 .child {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .child a {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 .childbur {
-    display: none;
+  display: none;
 }
 .crossX {
-    display: none;
+  display: none;
 }
 .site {
-    text-decoration: none;
-    font-size: 2.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-} 
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
+}
 .link {
-    font-size: 1.2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
 }
 
 /* front page hero section */
 
 .hero {
-    position: absolute;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top:300px;
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 300px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .par1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .par2 {
-    font-size:7rem;
+  font-size: 7rem;
 }
 .par3 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 i {
-    margin-top: 120px;
-    font-size: 4rem;
+  margin-top: 120px;
+  font-size: 4rem;
 }
 
 .container1 {
-    overflow: hidden;
-    height: 80vh;
-    width: 100vw;
-    display:flex; 
-    justify-content: space-between;
-    padding: 80px 120px 0px 0px; 
+  overflow: hidden;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 120px 0px 0px;
 }
 .container2 {
-    overflow: hidden;
-    height: 80vh;
-    width: 100vw;
-    display:flex; 
-    justify-content: space-between;
-    padding: 80px 0px 0px 120px;
+  overflow: hidden;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px 0px 120px;
 }
 /* second page */
 .second-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-trans {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blank {
-    height: 450px;
-    width: 100px;
-    background-color:#023047;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: #023047;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .parent {
-    width: 450px;
-    height: 450px;
-    background-color: #023047;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: #023047;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .description {
-    transform: translate(200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* adding animation in icons section */
 /* on blank */
-.trans { 
+.trans {
   transform: translate(-100px);
 }
 .animation-trans {
-        animation: transanime 0.3s linear 0s forwards normal;
+  animation: transanime 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2 {
-    animation:animetrans 0.3s linear 0s forwards normal;
+  animation: animetrans 0.3s linear 0s forwards normal;
 }
 @keyframes transanime {
-    from {
-        transform: translate(-100px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(-100px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetrans {
-    from {
-        transform: translate(10px);
-    }
-    to {
-        transform: translate(70px);
-    }
-    
+  from {
+    transform: translate(10px);
+  }
+  to {
+    transform: translate(70px);
+  }
 }
 .back-animation-trans {
-    animation: transanime2 0.3s linear 0s forwards normal;
+  animation: transanime2 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2 {
-    animation:animetrans2 0.3s linear 0s forwards normal;
+  animation: animetrans2 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2 {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(-100px);
-}
-
+  }
 }
 
 @keyframes animetrans2 {
-from {
+  from {
     transform: translate(70px);
-}
-to {
+  }
+  to {
     transform: translate(10px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animation {
-    from {
-        transform: translate(200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanime {
-    animation: text-animation 0.3s linear 0s forwards normal;
+  animation: text-animation 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animation {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanime {
-    animation: back-text-animation 0.3s linear 0s forwards normal;
+  animation: back-text-animation 0.3s linear 0s forwards normal;
 }
 
 /* 3rd page */
 .third-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transCSS {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankCSS {
-    height: 450px;
-    width: 100px;
-    background-color: #7209b7;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: #7209b7;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .parentCSS {
-    width: 450px;
-    height: 450px;
-    background-color:#7209b7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: #7209b7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionCSS {
-    transform: translate(-200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(-200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.transCSS { 
-    transform: translate(150px);
-  }
+.transCSS {
+  transform: translate(150px);
+}
 
-   /*3rd page animation  */
+/*3rd page animation  */
 
 /* on blank */
 .animation-transCSS {
-        animation: transanimeCSS 0.3s linear 0s forwards normal;
+  animation: transanimeCSS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2CSS {
-    animation:animetransCSS 0.3s linear 0s forwards normal;
+  animation: animetransCSS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeCSS {
-    from {
-        transform: translate(150px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(150px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransCSS {
-    from {
-        transform: translate(70px);
-    }
-    to {
-        transform: translate(10px);
-    }
-    
+  from {
+    transform: translate(70px);
+  }
+  to {
+    transform: translate(10px);
+  }
 }
 .back-animation-transCSS {
-    animation: transanime2CSS 0.3s linear 0s forwards normal;
+  animation: transanime2CSS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2CSS {
-    animation:animetrans2CSS 0.3s linear 0s forwards normal;
+  animation: animetrans2CSS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2CSS {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(150px);
-}
-
+  }
 }
 
 @keyframes animetrans2CSS {
-from {
+  from {
     transform: translate(10px);
-}
-to {
+  }
+  to {
     transform: translate(70px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationCSS {
-    from {
-        transform: translate(-200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeCSS {
-    animation: text-animationCSS 0.3s linear 0s forwards normal;
+  animation: text-animationCSS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationCSS {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(-200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeCSS {
-    animation: back-text-animationCSS 0.3s linear 0s forwards normal;
+  animation: back-text-animationCSS 0.3s linear 0s forwards normal;
 }
-
 
 /* fourth page */
 
 .fourth-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transJS {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankJS {
-    height: 450px;
-    width: 100px;
-    background-color:#f28482 ;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: #f28482;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .parentJS {
-    width: 450px;
-    height: 450px;
-    background-color:#f28482;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: #f28482;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionJS {
-    transform: translate(200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* adding animation in icons section */
 /* on blank */
-.transJS { 
+.transJS {
   transform: translate(-100px);
 }
 .animation-transJS {
-        animation: transanimeJS 0.3s linear 0s forwards normal;
+  animation: transanimeJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2JS {
-    animation:animetransJS 0.3s linear 0s forwards normal;
+  animation: animetransJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeJS {
-    from {
-        transform: translate(-100px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(-100px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransJS {
-    from {
-        transform: translate(10px);
-    }
-    to {
-        transform: translate(70px);
-    }
-    
+  from {
+    transform: translate(10px);
+  }
+  to {
+    transform: translate(70px);
+  }
 }
 .back-animation-transJS {
-    animation: transanime2JS 0.3s linear 0s forwards normal;
+  animation: transanime2JS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2JS {
-    animation:animetrans2JS 0.3s linear 0s forwards normal;
+  animation: animetrans2JS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2JS {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(-100px);
-}
-
+  }
 }
 
 @keyframes animetrans2JS {
-from {
+  from {
     transform: translate(70px);
-}
-to {
+  }
+  to {
     transform: translate(10px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationJS {
-    from {
-        transform: translate(200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeJS {
-    animation: text-animationJS 0.3s linear 0s forwards normal;
+  animation: text-animationJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationJS {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeJS {
-    animation: back-text-animation 0.3s linear 0s forwards normal;
+  animation: back-text-animation 0.3s linear 0s forwards normal;
 }
-
 
 /* fifth page */
 
 .fifth-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transBS {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankBS {
-    height: 450px;
-    width: 100px;
-    background-color: #f72585;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: #f72585;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .parentBS {
-    width: 450px;
-    height: 450px;
-    background-color: #f72585;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: #f72585;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionBS {
-    transform: translate(-200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(-200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.transBS { 
-    transform: translate(150px);
-  }
+.transBS {
+  transform: translate(150px);
+}
 
-   /*5th page animation  */
+/*5th page animation  */
 
 /* on blank */
 .animation-transBS {
-        animation: transanimeBS 0.3s linear 0s forwards normal;
+  animation: transanimeBS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2BS {
-    animation:animetransBS 0.3s linear 0s forwards normal;
+  animation: animetransBS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeBS {
-    from {
-        transform: translate(150px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(150px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransBS {
-    from {
-        transform: translate(70px);
-    }
-    to {
-        transform: translate(10px);
-    }
-    
+  from {
+    transform: translate(70px);
+  }
+  to {
+    transform: translate(10px);
+  }
 }
 .back-animation-transBS {
-    animation: transanime2BS 0.3s linear 0s forwards normal;
+  animation: transanime2BS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2BS {
-    animation:animetrans2BS 0.3s linear 0s forwards normal;
+  animation: animetrans2BS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2BS {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(150px);
-}
-
+  }
 }
 
 @keyframes animetrans2BS {
-from {
+  from {
     transform: translate(10px);
-}
-to {
+  }
+  to {
     transform: translate(70px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationBS {
-    from {
-        transform: translate(-200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeBS {
-    animation: text-animationBS 0.3s linear 0s forwards normal;
+  animation: text-animationBS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationBS {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(-200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeBS {
-    animation: back-text-animationBS 0.3s linear 0s forwards normal;
+  animation: back-text-animationBS 0.3s linear 0s forwards normal;
 }
-
 
 /* sixth page */
 .sixth-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transRJS {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankRJS {
-    height: 450px;
-    width: 100px;
-    background-color: blue;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .parentRJS {
-    width: 450px;
-    height: 450px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionRJS {
-    transform: translate(200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* adding animation in icons section */
 /* on blank */
-.transRJS { 
+.transRJS {
   transform: translate(-100px);
 }
 .animation-transRJS {
-        animation: transanimeRJS 0.3s linear 0s forwards normal;
+  animation: transanimeRJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2RJS {
-    animation:animetransRJS 0.3s linear 0s forwards normal;
+  animation: animetransRJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeRJS {
-    from {
-        transform: translate(-100px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(-100px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransRJS {
-    from {
-        transform: translate(10px);
-    }
-    to {
-        transform: translate(70px);
-    }
-    
+  from {
+    transform: translate(10px);
+  }
+  to {
+    transform: translate(70px);
+  }
 }
 .back-animation-transRJS {
-    animation: transanime2RJS 0.3s linear 0s forwards normal;
+  animation: transanime2RJS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2RJS {
-    animation:animetrans2RJS 0.3s linear 0s forwards normal;
+  animation: animetrans2RJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2RJS {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(-100px);
-}
-
+  }
 }
 
 @keyframes animetrans2RJS {
-from {
+  from {
     transform: translate(70px);
-}
-to {
+  }
+  to {
     transform: translate(10px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationRJS {
-    from {
-        transform: translate(200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeRJS {
-    animation: text-animationRJS 0.3s linear 0s forwards normal;
+  animation: text-animationRJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationRJS {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeRJS {
-    animation: back-text-animationRJS 0.3s linear 0s forwards normal;
+  animation: back-text-animationRJS 0.3s linear 0s forwards normal;
 }
 
 /* seventh page */
 .seventh-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transNJS {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankNJS {
-    height: 450px;
-    width: 100px;
-    background-color: rgb(1, 191, 45);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: rgb(1, 191, 45);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .parentNJS {
-    width: 450px;
-    height: 450px;
-    background-color: rgb(1, 191, 45);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: rgb(1, 191, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionNJS {
-    transform: translate(-200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(-200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.transNJS { 
-    transform: translate(150px);
-  }
+.transNJS {
+  transform: translate(150px);
+}
 
-   /*seventh page animation  */
+/*seventh page animation  */
 
 /* on blank */
 .animation-transNJS {
-        animation: transanimeNJS 0.3s linear 0s forwards normal;
+  animation: transanimeNJS 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2NJS {
-    animation:animetransNJS 0.3s linear 0s forwards normal;
+  animation: animetransNJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeNJS {
-    from {
-        transform: translate(150px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(150px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransNJS {
-    from {
-        transform: translate(70px);
-    }
-    to {
-        transform: translate(10px);
-    }
-    
+  from {
+    transform: translate(70px);
+  }
+  to {
+    transform: translate(10px);
+  }
 }
 .back-animation-transNJS {
-    animation: transanime2NJS 0.3s linear 0s forwards normal;
+  animation: transanime2NJS 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2NJS {
-    animation:animetrans2NJS 0.3s linear 0s forwards normal;
+  animation: animetrans2NJS 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2NJS {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(150px);
-}
-
+  }
 }
 
 @keyframes animetrans2NJS {
-from {
+  from {
     transform: translate(10px);
-}
-to {
+  }
+  to {
     transform: translate(70px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationNJS {
-    from {
-        transform: translate(-200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeNJS {
-    animation: text-animationNJS 0.3s linear 0s forwards normal;
+  animation: text-animationNJS 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationNJS {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(-200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeNJS {
-    animation: back-text-animationNJS 0.3s linear 0s forwards normal;
+  animation: back-text-animationNJS 0.3s linear 0s forwards normal;
 }
-
 
 /* eighth page */
 
 .eighth-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transSQL {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankSQL {
-    height: 450px;
-    width: 100px;
-    background-color: blue;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .parentSQL {
-    width: 450px;
-    height: 450px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionSQL {
-    transform: translate(200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* adding animation in icons section */
 /* on blank */
-.transSQL { 
+.transSQL {
   transform: translate(-100px);
 }
 .animation-transSQL {
-        animation: transanimeSQL 0.3s linear 0s forwards normal;
+  animation: transanimeSQL 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2SQL {
-    animation:animetransSQL 0.3s linear 0s forwards normal;
+  animation: animetransSQL 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeSQL {
-    from {
-        transform: translate(-100px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(-100px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransSQL {
-    from {
-        transform: translate(10px);
-    }
-    to {
-        transform: translate(70px);
-    }
-    
+  from {
+    transform: translate(10px);
+  }
+  to {
+    transform: translate(70px);
+  }
 }
 .back-animation-transSQL {
-    animation: transanime2SQL 0.3s linear 0s forwards normal;
+  animation: transanime2SQL 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2SQL {
-    animation:animetrans2SQL 0.3s linear 0s forwards normal;
+  animation: animetrans2SQL 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2SQL {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(-100px);
-}
-
+  }
 }
 
 @keyframes animetrans2SQL {
-from {
+  from {
     transform: translate(70px);
-}
-to {
+  }
+  to {
     transform: translate(10px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationSQL {
-    from {
-        transform: translate(200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeSQL {
-    animation: text-animationSQL 0.3s linear 0s forwards normal;
+  animation: text-animationSQL 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationSQL {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeSQL {
-    animation: back-text-animationSQL 0.3s linear 0s forwards normal;
+  animation: back-text-animationSQL 0.3s linear 0s forwards normal;
 }
 
 /* 9th page */
 .nineth-page {
-    overflow: hidden;
-    height: 100vh;
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    align-items: center;
-    background-image: url("background.png");
-    background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.png");
+  background-size: cover;
 }
 .logo-transDB {
-    display: flex;
-    width:650px;
-    gap:50px;
-  
+  display: flex;
+  width: 650px;
+  gap: 50px;
 }
 .blankDB {
-    height: 450px;
-    width: 100px;
-    background-color: blue;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-
+  height: 450px;
+  width: 100px;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .parentDB {
-    width: 450px;
-    height: 450px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 20px;
+  width: 450px;
+  height: 450px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 img {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 .descriptionDB {
-    transform: translate(-200px);
-    width: 500px;
-    height: 400px;
-    font-size: 1.2rem;
-    color: #4f4f4f;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  transform: translate(-200px);
+  width: 500px;
+  height: 400px;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h2 {
-    color: #023047;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #023047;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.transDB { 
-    transform: translate(150px);
-  }
+.transDB {
+  transform: translate(150px);
+}
 
-   /*9th page animation  */
+/*9th page animation  */
 
 /* on blank */
 .animation-transDB {
-        animation: transanimeDB 0.3s linear 0s forwards normal;
+  animation: transanimeDB 0.3s linear 0s forwards normal;
 }
 /* on parent */
 .animation-trans2DB {
-    animation:animetransDB 0.3s linear 0s forwards normal;
+  animation: animetransDB 0.3s linear 0s forwards normal;
 }
 @keyframes transanimeDB {
-    from {
-        transform: translate(150px);
-    }
-    to {
-        transform: translate(30px);
-    }
-    
+  from {
+    transform: translate(150px);
+  }
+  to {
+    transform: translate(30px);
+  }
 }
 
 @keyframes animetransDB {
-    from {
-        transform: translate(70px);
-    }
-    to {
-        transform: translate(10px);
-    }
-    
+  from {
+    transform: translate(70px);
+  }
+  to {
+    transform: translate(10px);
+  }
 }
 .back-animation-transDB {
-    animation: transanime2DB 0.3s linear 0s forwards normal;
+  animation: transanime2DB 0.3s linear 0s forwards normal;
 }
 .back-animation-trans2DB {
-    animation:animetrans2DB 0.3s linear 0s forwards normal;
+  animation: animetrans2DB 0.3s linear 0s forwards normal;
 }
 @keyframes transanime2DB {
-from {
+  from {
     transform: translate(30px);
-}
-to {
+  }
+  to {
     transform: translate(150px);
-}
-
+  }
 }
 
 @keyframes animetrans2DB {
-from {
+  from {
     transform: translate(10px);
-}
-to {
+  }
+  to {
     transform: translate(70px);
-}
+  }
 }
 /* adding animation in text */
 @keyframes text-animationDB {
-    from {
-        transform: translate(-200px);
-        opacity:0.2 ;
-    }
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
+  from {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translate(0px);
+    opacity: 1;
+  }
 }
 
 .textanimeDB {
-    animation: text-animationDB 0.3s linear 0s forwards normal;
+  animation: text-animationDB 0.3s linear 0s forwards normal;
 }
 
 @keyframes back-text-animationDB {
-    from {
-        transform: translate(0px);
-        opacity: 1;
-    }
-    to {
-        transform: translate(-200px);
-        opacity: 0.2;
-    }
+  from {
+    transform: translate(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-200px);
+    opacity: 0.2;
+  }
 }
 
 .back-textanimeDB {
-    animation: back-text-animationDB 0.3s linear 0s forwards normal;
+  animation: back-text-animationDB 0.3s linear 0s forwards normal;
 }
 
 /* footer */
 footer {
-    height:40vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(228, 230, 233);
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(228, 230, 233);
 }
 #par {
-    margin-top: 1.8rem;
-    font-size: 1.6rem;
-    font-family: sans-serif;
-    font-weight: 600;
+  margin-top: 1.8rem;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 .foot-box {
-    display: flex;
-    width: 800px;
-    justify-content: space-between;
-    margin-top: 2rem;
-    color: #4f4f4f;
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    font-weight: 600;  
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin-top: 2rem;
+  color: #4f4f4f;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 ul li {
-    margin-bottom:10px ;
-
+  margin-bottom: 10px;
 }
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 #par2 {
-    margin-top: 20px;
-    font-family: sans-serif;
+  margin-top: 20px;
+  font-family: sans-serif;
 }
 #tap2 {
-    display: block;
+  display: block;
 }
 .navigationBur {
-    display: none;
+  display: none;
 }

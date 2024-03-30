@@ -126,7 +126,7 @@ btn9.addEventListener("click", () => {
 function detectViewportWidth() {
   const viewPortWidth = window.innerWidth;
   // for responsiveness
-  if (  viewPortWidth < 2560 && viewPortWidth > 1025  ) {
+  if (viewPortWidth < 2560 && viewPortWidth > 1025) {
     let scrollpt1 = 400;
     let scrollpt2 = 1100;
     let scrollpt3 = 1900;
@@ -506,22 +506,20 @@ function detectViewportWidth() {
   }
 
   // mobile responsiveness
-  else if(viewPortWidth < 427 && viewPortWidth > 0) {
+  else if (viewPortWidth < 427 && viewPortWidth > 0) {
     const burger = document.querySelector(".childbur");
     const navCross = document.querySelector(".navigationBur");
-    const crossX = document.querySelector(".crossX")
+    const crossX = document.querySelector(".crossX");
     burger.addEventListener("click", () => {
-       navCross.classList.add("navAnime");
-       navCross.classList.remove("navAnimeBack");
-       body.style.position = "fixed";
+      navCross.classList.add("navAnime");
+      navCross.classList.remove("navAnimeBack");
+      body.style.position = "fixed";
     });
     crossX.addEventListener("click", () => {
       navCross.classList.add("navAnimeBack");
       navCross.classList.remove("navAnime");
       body.style.position = "relative";
     });
-    
-    
   }
 }
 

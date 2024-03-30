@@ -1,0 +1,125 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.Navbar {
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 140px 0px 170px;
+}
+.child {
+  display: flex;
+  align-items: center;
+}
+.child a {
+  margin-right: 30px;
+}
+.site {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
+}
+.link {
+  font-size: 1.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+/* hero */
+.container {
+  height:80vh;
+  width:80vw;
+  background-color: rgba(58, 12, 163, 0.367);
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.8);
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  height:45%;
+  width:27%;
+  background-color: #560bad;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding:15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+.field {
+  height:25%;
+  width: 100%;
+  background-color: #f72585;
+  border-top: 1px;
+ border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+img {
+  height:45px;
+  width:45px;
+  border: 2px;
+  border-radius: 5px;
+}
+.career {
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+.detail {
+  font-size: 1.6rem;
+  font-family:sans-serif;
+  font-weight: 500;
+  color:white;
+}
+button {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  width: 90%;
+  border: 2px solid black;
+  font-size: 0.89rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
